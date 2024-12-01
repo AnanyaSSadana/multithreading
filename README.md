@@ -1,5 +1,14 @@
-# Multithreaded HTTP Web Server | Operating Systems | C++
+# Multithreaded Web Server | Operating Systems 
 
-Developed a high-performance HTTP web server that handles multiple client requests concurrently using multithreading with a thread pool and task synchronization.
- 
-Implemented an optimized caching mechanism based on the least recently used (LRU) policy to enhance performance by reducing disk I/O for frequently accessed resources. Added comprehensive logging and error handling to ensure reliability and maintainability.
+A simple multithreaded web server implemented in C++ using basic OS concepts.
+
+## Features
+- Serves static files (HTML, CSS, images).
+- Multithreaded request handling using a thread pool.
+- Thread-safe logging.
+- Basic error handling for unsupported methods and missing files.
+
+## How to Run
+1. Compile the code:
+   ```bash
+   g++ -std=c++17 -pthread simple_web_server.cpp -o simple_web_server
