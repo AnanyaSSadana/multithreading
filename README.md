@@ -11,4 +11,4 @@ A simple multithreaded web server implemented in C++ using basic OS concepts.
 ## How to Run
 1. Compile the code:
    ```bash
-   g++ -std=c++17 -pthread simple_web_server.cpp -o simple_web_server
+   g++ -std=c++17 -pthread multithreaded_http_server.cpp -o multithreaded_http_server
